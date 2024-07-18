@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  line-height: 2;
+  font-weight: 200px;
+}
+button {
+  padding: 10px 15px;
+  border: none;
+}
+button:hover {
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
+/* Navigation */
+ nav {
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+ 
+  top: 0;
+  margin-bottom: 32px;
+  background-color: white;
+  padding: 10px;
+  z-index: 50;
+  position: sticky; */
+} 
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.bar_icon {
+  font-size: 32px;
+}
+
+/* main Section */
+.main {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.main_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tag {
+  background-color: #905ea0d7;
+  padding: 5px 10px;
+  color: white;
+  align-self: flex-start;
+}
+
+.main_content h1 {
+  font-size: 72px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.explore_btn {
+  background:orange;
+  align-self: flex-start; 
+}
+
+/* Features Section */
+.features {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.feature_content{
+   font-size: large; 
+}
+.feature {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  transition: 0.2s ease-in-out;
+}
+.feature img {
+  width: 72px;
+}
+.menu{
+    font-size: 45px;
+}
+body{
+     background-color:oldlace
+}
+.tag2 {
+  background-color: #c72129d7;
+  height: 100px;
+  width: 500px;
+  padding: 10px 10px 10px;
+  color: rgb(0, 0, 0);
+font-size: 60px;
+  display: flex;
+
+}
+/* marquee section */
+.abc{
+  background-color: black;
+  color: blanchedalmond;
+  font-size: 20px;
+  height: 40px;
+  padding: 5px;
+}
+/* menu section */
+.divider tag2{
+  font-size:small;
+}
+/* footer section */
+.footer_container h3{
+  background-color: black;
+  color: white;
+  
+}
+
+
+.other_link {
+display: flex;
+align-items: center;
+justify-content: center;
+  
+}
+.logo_name{
+    font-style: "italic"
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: medium;
+    background-color:white;
+    color: black;
+    align-items: center;
+
+font-size: 100px;
+width: 200px;
+height: px;
+
+
+;}
